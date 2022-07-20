@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registeration Form</title>
+    </head>
+    <body>
+        <center>
+            <form>
+                <h3>Registeration Form</h3>
+                <br><br>
+                <label>UserName: </label>
+                <input type="text" autofocus pattern="[a-zA-Z]" maxlength="15"><br><br>
+                <label>Password</label>
+                <input type="password" minlength="8" maxlength="12"><br><br>
+                <label>Email</label>
+                <input type="email"><br><br>
+                <label>Gender</label>
+                <input type="radio" name="Gender">male
+                <input type="radio" name="Gender">Female
+                <input type="radio" name="Gender">other <br><br>
+                <label>Age : </label><input type="number" min="12" max="60"><br><br>
+                <label>Address</label><textarea  cols="20" rows="4" maxlength="100" placeholder="100 characters max"></textarea><br><br>
+                <label>Choose Country: </label><select>
+                    <option value="India">India</option>
+                    <option value="United States">LONDON</option>
+                    <option value="Germany">Germany</option>
+                    <option value="Japan">japan</option>
+                </select><br><br>
+                <label>Date Of Journey</label>
+                <input type="date"><br><br>
+                <input type="submit">&nbsp;&nbsp;<input type="reset">
+            </form>
+        </center>
+    </body>
+</html>
