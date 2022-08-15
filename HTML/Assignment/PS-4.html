@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Problem Statement 4</title>
+    <style>
+        .div1{
+            position: relative;
+            height: 50px;
+            width:70%;
+            border: 2px solid black;
+            font-weight: bold;
+            background-color:rgba(0,255,255,0.5);
+        }
+        .div2{
+            position: relative;
+            height: 200px;
+            width:70%;
+            margin-left: 30px;
+            border: 2px solid black;
+            font-weight: bold;
+            background-color:lightpink;
+            
+        }
+        .div3{
+            height: 50px;
+            width:70%;
+            border: 2px solid black;
+            font-weight: bold;
+            background-color:rgba(0,255,255,0.5);
+        }
+        .inner-div1{
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            left: 60%;
+            height: 30px;
+            width: 50%;
+            border: 2px solid black;
+            font-weight: bold;
+            background-color:yellow;
+        }
+        .inner-div2-1{
+            position: absolute;
+            background-color: yellow;
+            left: 15%;
+            height: 30%;
+            top: 20px;
+            width: 70%;
+            bottom: 50px;   
+        }
+        .inner-div2-2{
+            position: absolute;
+            background-color: yellow;
+            left: 10%;
+            height: 20%;
+            top: 70%;
+            width: 70%;
+            bottom: 50px;   
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">Header
+        <div class="inner-div1">Content1</div>
+    </div>
+    <div class="div2">Content
+        <div class="inner-div2-1">
+            Content2
+        </div>
+        <div class="inner-div2-2">Content3</div>
+    </div>
+    <div class="div3">Footer
+    </div>
+</body>
+</html>
