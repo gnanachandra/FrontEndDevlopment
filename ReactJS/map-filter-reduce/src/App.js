@@ -1,9 +1,9 @@
 import './App.css';
-import {MyCart} from "../src/MyCart"
+import EMICalculator from './components/EMICalculator';
 function App() {
   return (
-    <div>
-      <MyCart/>
+    <div style={{width:'90%', margin: '0 auto',height:'100%'}}>
+      <EMICalculator/>
     </div>
   );
 }

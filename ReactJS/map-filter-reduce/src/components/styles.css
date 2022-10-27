@@ -1,0 +1,45 @@
+.circle {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    transition: background-color 0.5s ease-in-out;
+    }
+    .circle-red {
+    border: 1px solid red;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: background-color 0.5s ease-in-out;
+    outline: none;
+    }
+    .circle-green {
+    border: 1px solid green;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    transition: background-color 0.5s ease-in-out;
+    outline: none;
+    }
+    .circle-yellow {
+    border: 1px solid yellow;
+    border-radius: 50%;
+    width: 100px;    
+    height: 100px;
+    background-color: yellow;
+    transition: background-color 0.5s ease-in-out;
+    }
+    .container
+    {
+        height: 300px;
+        width: 100px;
+        background-color: black;
+        border:2px solid black;
+        padding: 20px;
+        margin-bottom: 100%;
+        margin-left: 50%;
+        margin-top: 10%;
+    }
